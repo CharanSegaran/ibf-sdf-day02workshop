@@ -36,7 +36,7 @@ public class App {
             System.out.println("8 888888888P .8'       `8. `88888. 8 8888             8 8888       8 888888888888 8 888888888888 `Y8888P ,88P' 8 8888        8  8 8888 8 8888         ");
             System.out.println();
     }
-    //print the grid not revealing only the shot at areas
+    //print the grid revealing only the shot at areas
     public static void printGrid(Grid[][] game){
         System.out.print("  ");
         for (char ch = 'A'; ch < 'I'; ch++){
